@@ -1,38 +1,47 @@
-# 0x09. React Redux reducer+selector
-:open_file_folder: Specializations - Web Stack programming ― React  
-:bust_in_silhouette: By Johann Kerbrat, Engineering Manager at Uber Works  
-:copyright: **[Holberton School](https://www.holbertonschool.com/)**  
-:bookmark: javascript | react | reducer | selector
+## React Redux Connectors and Providers
+### Learning Objectives
 
-## Resources
-### Read or watch:
-* [Reducers](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers)
-* [Selectors](https://redux.js.org/introduction/learning-resources#selectors)
-* [Writing tests](https://redux.js.org/recipes/writing-tests)
-* [Immutable Map documentation](https://immutable-js.github.io/immutable-js/docs/#/Map)
-* [Normalizr](https://github.com/paularmstrong/normalizr)
-* [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
+- Redux connectors and how to use them
+- The different functions you can pass to a connector (mapStateToProps, mapDispatchToPros)
+- How to map an action creator to a component using a connector
+- How to map an async action creator to a component with Redux Thunk
+- What Redux Providers are and how to set up your app’s store
+- How you can improve a connector’s performance using Reselect
+- How to use Redux’s dev tools to debug the state of your application
 
-## Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), without the help of Google:
-### General
-* The purpose of a reducer and the role it plays within your application
-* Why a reducer should stay as pure as possible
-* Why mutations should not happen within a reducer
-* The use of Immutable within the reducer
-* The use of Normalizr within the app
-* Selectors: what they are and when to use them
+Task list
 
-## Requirements
-* A ```README.md``` file.
-
-## Tasks
-* [x] 0. Write a basic reducer
-* [x] 1. Use Immutable for the UI Reducer
-* [x] 2. Create a reducer for Courses
-* [x] 3. Create the reducer for notifications
-* [x] 4. Normalizr & Immutable
-* [x] 5. Selectors
+1. Create a small store
+2. Test MapStateToProps
+3. Update mapStateToProps
+4. Connect your actions creators
+mandatory
+5. Refactor your code
+6. Update your tests
+7. Async actions & Thunk middleware
+8. Connect LoginRequest to the App
+mandatory
+9. Connect user state to the Footer
+10. Connect Logout action creator to the Header
+11. Modify the uiReducer
+12. Modify the test suites
+13. Understand how to use the Redux Chrome extension
+14. Combine store: Root reducer
+15. Combine store: modify the application
+16. Combine store: write the tests
+17. Connect notifications: New Action Creator
+18. Connect notifications: Improve reducer
+19. Connect notifications to the reducer
+20. Connect notifications: clean up
+21. Connect notifications: update the test suites
+22. Selectors
+23. Connect courses: create a course selector
+24. Connect courses: create a fetch courses function
+25. Connect the courses component
+26. Memoized selectors: Redux Reselect
+27. Memoized selectors: update the UI
+28. Memoized selectors: update the test suite
+29. Container/Component
 
 ## Software engineer
 [Loretta Dhahabu Jefwa]
